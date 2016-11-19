@@ -22,5 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         lv = (ListView) findViewById(R.id.lv);
         LvAdapter adapter = new LvAdapter();
+
+        //傻儿子
     }
 }
