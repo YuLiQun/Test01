@@ -14,4 +14,9 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome_activity);
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 }
